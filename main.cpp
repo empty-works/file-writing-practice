@@ -18,6 +18,8 @@ int main() {
 	else {
 		std::cout << "Error opening file." << std::endl;
 	}
+	
+	out_file.close();
 
 	return 0;
 }
